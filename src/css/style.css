@@ -1,0 +1,97 @@
+html{
+    font-size: 62.5%; /*para usar rem: 1.6rem = 16px 2rem = 20px*/
+}
+
+body{
+    background: var(--primary) url('../images/bg-desktop.svg') center center no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* padding-top: 4.5rem; */
+}
+
+.header .logo{
+    width: 22rem;
+    margin-bottom: 8rem;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.main .imagem-principal{
+    width: 60%;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    color: #fff;
+    max-width: 500px;
+    margin-top: 5%;
+}
+
+.conteudo .titulo{
+    font-size: 4.3rem;
+    font-family: 'open sans', sans-serif;
+}
+
+.conteudo .texto{
+    font-size: 1.6rem;
+    font-family: 'poppins', sans-serif;
+}
+
+.conteudo .btn a{
+    background-color: #fff;
+    padding: 1.5rem 6rem;
+    font-size: 2rem;
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 5rem;
+    color: var(--primary);
+    font-family: 'poppins', sans-serif;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.conteudo .btn a.register:hover{
+    background-color: var(--hover);
+    color: #fff;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 20px 0;
+}
+
+.footer .social i{
+    color: #fff;
+    border: 0.1rem solid #fff;
+    padding: 1.1rem 1.3rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+    transition: 0.3s ease-in-out;
+}
+
+.footer .social a i:hover{
+    color: var(--hover);
+}
