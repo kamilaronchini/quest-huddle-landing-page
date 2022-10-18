@@ -10,6 +10,7 @@ Resultado esperado mobile:
 <p align="center">
     <img width="300" src="src/assets/to-readme/mobile-design.jpg">
 </p>
+
 ## Dificuldades encontradas
 
 - Alinhamento dos elementos de acordo com a imagem modelo;
