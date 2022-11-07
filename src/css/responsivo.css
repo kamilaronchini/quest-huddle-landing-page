@@ -8,11 +8,16 @@
         padding: 1rem 4rem;
         font-size: 1.5rem;
     }
+
+    .footer .social{
+        justify-content: center;
+    }
 }
 
 @media(max-width: 576px){
     body{
         background: var(--primary) url('../images/bg-mobile.svg') no-repeat;
+        background-size: 580px;
         background-position: top;
     }
 
@@ -56,13 +61,26 @@
         margin-bottom: 5rem;
     }
 
-    .footer{
+    .footer .social{
         text-align: center;
+        justify-content: center;
     }
 
     .footer .social i{
         padding: 1rem 1rem;
         font-size: 1rem;
         margin: 0.2rem;
+    }
+}
+
+@media(max-width: 425px){
+    body{
+        background-size: 450px;
+    }
+}
+
+@media(max-width: 280px){
+    body{
+        background-size: auto;
     }
 }
